@@ -1,12 +1,15 @@
 import discord
 import logging
+import os 
+from dotenv import load_dotenv
+
+load_dotenv()
 # import requests
 # import bs4 from BeautifulSoup
-
+token = os.getenv("TOKEN")
 intents = discord.Intents.default()
 intents.message_content = True
 handler - logging .FileHandler(filename="discord.log", encoding="utf-8", mode='w')
-token = "MTA3MjU3NDU1ODY4ODc4ODUwMA.GNlHoV.sfXSHzWGrubedaWSAeHjdm0GMHchJzolqpZWF0"
 
 client = discord.Client(intents=intents)
 
