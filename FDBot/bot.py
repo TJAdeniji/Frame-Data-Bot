@@ -1,9 +1,11 @@
-import discord #needs installation
+import discord 
 import logging
-import requests #needs installation
-import bs4 from BeautifulSoup #needs installation
+import requests 
+
 import os 
-from dotenv import load_dotenv #dotenv needs installation
+from dotenv import load_dotenv 
+
+from bs4 import BeautifulSoup
 
 load_dotenv()
 
