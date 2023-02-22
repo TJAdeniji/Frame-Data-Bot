@@ -24,5 +24,5 @@ async def on_message(message):
 #    if not message.author.id == "1072574558688788500":
 #            await client.send_message(message.channel, content = "GOT EM! TIME TO STYLE ON EM WITH A CLIMAX"
 
-client.run(token)
-#client.run(token, log_handler = handler)
+
+client.run(token, log_handler = handler)
