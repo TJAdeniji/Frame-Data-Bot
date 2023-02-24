@@ -5,7 +5,7 @@ import requests
 import os 
 from dotenv import load_dotenv 
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup 
 
 load_dotenv()
 
